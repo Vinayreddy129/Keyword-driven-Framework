@@ -1,13 +1,15 @@
 package KeywordMethods;
 
+import Const.FilePath;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Keywords {
     WebDriver driver;
-
+    FilePath filePath;
     public void openBrowser(String url) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+        filePath = new FilePath();
+        System.setProperty(filePath.key,filePath.value );
         driver=new ChromeDriver();
         driver.get(url);
         Thread.sleep(2000);
