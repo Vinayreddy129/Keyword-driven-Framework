@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -25,12 +26,12 @@
             <version>5.2.3</version>
         </dependency>
         <!-- TestNG for Test Execution -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.8.0</version>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.testng</groupId>-->
+<!--            <artifactId>testng</artifactId>-->
+<!--            <version>7.7.0</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
         <!-- Log4j for Logging (Optional) -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
